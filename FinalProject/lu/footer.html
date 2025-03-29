@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Restaurant</title>
+    </head>
+
+    <body>
+    <!--footer-->
+    <footer>
+        <div class="footer-middle">
+            <div class="link">
+                <a href="#"><img src='/lu/mail.png' alt="Mail"></a>
+            </div>
+            <div class="contact">
+                <a href="#"><img src='/lu/phone_0.png' alt="Phone"></a>
+            </div>
+            <div class="social">
+                <a href="#"><img src='/lu/facebook.png' alt="Facebook"></a>
+                <a href="#"><img src='/lu/instagram.png' alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>@ Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+        </div>
+    </footer>
+    </body>
+</html>
+
+<style>
+/*footer*/
+footer {
+    background-color: #FF8C00;
+    display: fixed;
+    color: #ffffff;
+    text-align: center;
+    width: 100%; 
+    padding-top: 40px;
+    padding-bottom: 40px;
+    z-index: 1000;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-right: 35px;
+}
+
+.contact, .link, .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.contact a, .link a {
+    width: 40px;
+    margin: 0;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+.social a {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+.footer-bottom a{
+    color: #8F4586;
+    text-align: center;
+}
+</style>

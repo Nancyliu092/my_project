@@ -1,0 +1,188 @@
+.form-container {
+    max-width: auto;
+    margin: 0;
+    padding: 20px;
+    background-color: #FFF6D4;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    font-family: "Times New Roman", Arial, sans-serif;
+    background-color: #FFE29A;
+}
+
+.form-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    margin-top: 0px;
+}
+
+.back1 {
+    width:50px; 
+    height:50px; 
+    border-radius:50%;
+    margin-bottom: 0px;
+}
+
+
+
+.back1:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.form-message {
+    text-align: center;
+    margin-bottom: 20px;
+    color: green;
+    font-size: 16px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-input,
+.form-textarea {
+    width: 98%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 30px;
+
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.tips-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btn {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-add {
+    background-color: #909473;
+    color: white;
+}
+
+.btn-update {
+    background-color: #FFA559;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.main-container {
+    width: 100%;
+    max-width: auto;        /* 設置最大寬度 */
+    margin: 20px;            /* 增加周邊留白 */
+    background-color: #FFF6D4;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;        /* 防止內容溢出 */
+    margin: 0 auto;         /* 讓內容在視窗中置中 */
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: #FFE29A;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;          /* 讓卡片在頁面中置中 */
+    padding: 20px;
+    max-width: auto;        /* 限定最大寬度 */
+}
+
+.card img {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 100%;         /* 圖片寬度適應容器 */
+    margin-bottom: 15px;     /* 圖片和內容之間留白 */
+    display: block;         /* 保證圖片是區塊級 */
+    margin-left: auto;      /* 水平置中 */
+    margin-right: auto;     /* 水平置中 */
+}
+
+.card .content {
+    width: 50%;
+    padding: 20px;
+    background-color: #FFF6D4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 14px;
+    color: white;
+}
+
+.card button {
+    padding: 10px 20px;
+    background-color: #FFB830;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.edit-btn:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column !important; /* 強制改為垂直排列 */
+    }
+
+    .card img {
+        max-width: 100% !important; /* 強制圖片寬度適應 */
+        margin: 0 auto !important; /* 強制水平居中 */
+    }
+
+    .card .content {
+        width: 100% !important;
+        padding: 15px !important;
+    }
+}
+
